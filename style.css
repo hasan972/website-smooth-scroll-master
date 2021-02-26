@@ -541,3 +541,99 @@
     grid-template-columns: 1fr;
   }
 }
+/*footer Section css is  given below*/
+.footer-container{
+  background-color:  #121427;;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer-link{
+width: 100%;
+max-width: 1000px;
+display:flex;
+justify-content: center;
+
+}
+.footer-link-wrapper{
+  display: flex;
+}
+
+.footer-link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px;
+    text-align: left;
+    width: 162px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.footer-link-item h2{
+  margin-bottom: 16px;
+  color: #fff;
+  font-size: 25px;
+}
+.footer-link-item a{
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: 0.3 ease-out;
+}
+.footer-link-item a:hover{
+  color: #44107a;
+  transition: 0.3 ease-out;
+}
+
+#footer-logo{
+  color: #ff0844;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 3rem;
+  text-align: center;
+
+}
+.social-icon-link{
+  background-color: #ff8177;
+ background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+
+ -webkit-background-clip: text;
+ -moz-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -moz-text-fill-color: transparent;
+
+ font-size: 2.5rem;
+}
+.social-media {
+    max-width: 1000px;
+    width: 100%;
+}
+.social-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1004px;
+    margin: 40px auto 0 auto;
+}
+.website-write{
+  background-color: #ff8177;
+ background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+ -webkit-background-clip: text;
+ -moz-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -moz-text-fill-color: transparent;
+
+ font-size: 1.2rem;
+}
+.social-icon{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
