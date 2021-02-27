@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  perspective: 1000px;
+}
+.container{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+    min-height: 70vh;
+    width: 70%;
+    background: black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 50%), -5px -5px 6px rgb(0 0 0 / 50%);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+}
+h1{
+  font-size:50px;
+  color: #FC00FF;
+  position: relative;
+  margin-left: 1rem;
+}
+.form {
+    min-width: 60%;
+    min-height: 50vh;
+    color: white;
+    margin-left: -71px;
+}
+label{
+  font-size: 20px;
+  font-family: Arial;
+  line-height: 2;
+  font-weight: 500;
+  padding-left: 11px;
+}
+input{
+  width: 12rem;
+  outline: none;
+  border: none;
+  color: white;
+  background: transparent;
+  border-bottom: 1px solid white;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+button{
+  outline: none;
+  display: flex;
+  align-items: center;
+  padding: 5px 80px;
+  border-radius: 30px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  background: #FC00FF;
+  color: white;
+}
+#man {
+    margin-top: 84px;
+    margin-left: -52px;
+    width: 8rem;
+    height: 9rem;
+    position: relative;
+    bottom: -5.5rem;
+    right: 4rem;
+    border-radius: 15px;
+    border-spacing: inherit;
+}
+#you{
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 3rem;
+  right: 8rem;
+  border-style: groove;
+}
+h2 {
+    position: absolute;
+    color: white;
+    right: 3rem;
+    top: 8rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    max-width: 279px;
+    font-size: 34px;
+}
+.path{
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #00DBDe 0%, #FC00FF 100%);
+  clip-path: circle(350px at right 130px);
+  border-radius: 30px;
+}
